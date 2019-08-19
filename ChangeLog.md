@@ -1,3 +1,3 @@
-# Changelog for gtk-gui
+# Changelog for gi-gtk-playground
 
 ## Unreleased changes

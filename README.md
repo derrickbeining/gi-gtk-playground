@@ -1,1 +1,1 @@
-# gtk-gui
+# gi-gtk-playground

@@ -1,6 +1,6 @@
-name: gtk-gui
+name: gi-gtk-playground
 version: 0.1.0.0
-github: "githubuser/gtk-gui"
+github: "derrickbeining/gi-gtk-playground"
 license: BSD3
 author: "Author name here"
 maintainer: "example@example.com"
@@ -19,7 +19,7 @@ extra-source-files:
 # common to point users to the README.md file.
 description:
   Please see the README on GitHub at
-  <https://github.com/githubuser/gtk-gui#readme>
+  <https://github.com/derrickbeining/gi-gtk-playground#readme>
 
 dependencies:
   - base >= 4.7 && < 5
@@ -28,7 +28,7 @@ library:
   source-dirs: src
 
 executables:
-  gtk-gui-exe:
+  gi-gtk-playground-exe:
     main: Main.hs
     source-dirs: app
     ghc-options:
@@ -41,14 +41,14 @@ executables:
       - -Wredundant-constraints
       - -Werror
     dependencies:
-      - gtk-gui
+      - gi-gtk-playground
       - gi-gtk
       - gi-gtk-declarative
       - gi-gtk-declarative-app-simple
       - text
       - vector
 tests:
-  gtk-gui-test:
+  gi-gtk-playground-test:
     main: Spec.hs
     source-dirs: test
     ghc-options:
@@ -56,4 +56,4 @@ tests:
       - -rtsopts
       - -with-rtsopts=-N
     dependencies:
-      - gtk-gui
+      - gi-gtk-playground
